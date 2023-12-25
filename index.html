@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="portfolio, new portfolio" />
+    <meta
+      name="description"
+      content="This is my portfolio website's assignment which is given by Saylani Mass IT Training and this is my second project overhere "
+    />
+    <title>SMIT Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Jost&family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,400&family=Poppins:wght@400;500;600;700&family=Roboto&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favIcon2.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="logo" id="logo">
+        <a href="#home"
+          ><img src="assets/images/logo.png" alt="This is my website logo"
+        /></a>
+      </div>
+      <div class="responsive-icons">
+        <i class="fa-solid fa-bars" id="menuBar"></i>
+        <i class="fa-solid fa-xmark" id="closeIcon"></i>
+      </div>
+
+      <nav class="navbar">
+        <a onclick="hide()" href="#home">home</a>
+        <a onclick="hide()" href="#about">about</a>
+        <a onclick="hide()" href="#services">services</a>
+        <a onclick="hide()" href="#portfolio">portfolio</a>
+        <a onclick="hide()" href="#contact">contact</a>
+      </nav>
+    </header>
+    <!--================================
+            Home section starts
+    =====================================  -->
+    <main id="home">
+      <div class="container grid grid-two-columns">
+        <div class="home-content">
+          <p>hello it's me</p>
+          <h1>Muhammad Sanaullah</h1>
+          <p>full stack developer</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            quidem tenetur nobis facere debitis consequatur vel, inventore error
+            sit magnam porro hic natus labore maxime eius nihil et voluptates
+            ipsam.
+          </p>
+          <a href="mailto:sanaullahsolangi@gmail.com" class="btn">hire me</a>
+        </div>
+        <div class="home-image">
+          <img
+            src="./assets/images/image.webp"
+            alt="This is my portfolio's home page image"
+            title="Muhammad Sanaullah"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </main>
+    <!--================================
+            About section starts
+    =====================================  -->
+    <section id="about" class="section">
+      <div class="section-heading">
+        <h2 class="heading">about me</h2>
+      </div>
+      <div class="container grid grid-two-columns">
+        <div class="about-image">
+          <img
+            src="./assets/images/image.webp"
+            alt="This is my about section image"
+            title="Muhammad SanaUllah"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            corrupti soluta, vero provident impedit at quis, molestias, facilis
+            fugit voluptates quo cum enim saepe ipsam voluptatem? Non veritatis
+            expedita soluta facere vero explicabo sed esse quam ullam! Facere, a
+            dolorem deleniti dolorum error veritatis. Atque corporis impedit
+            molestiae in quod a at suscipit vitae maiores explicabo blanditiis
+            pariatur modi dolores deserunt nobis, necessitatibus incidunt vero
+            facilis fugit eligendi ullam! Porro consequatur dolores assumenda
+            distinctio inventore laboriosam similique.
+          </p>
+          <div class="skill-set">
+            <!--* first skill  -->
+            <div class="html">
+              <p>HTML</p>
+              <div class="progress-bar"><span>95%</span></div>
+            </div>
+
+            <!--* second skill  -->
+            <div class="Css">
+              <p>css</p>
+              <div class="progress-bar progress-bar-2"><span>90%</span></div>
+            </div>
+
+            <!--* Third skill  -->
+            <div class="js">
+              <p>bootstrape</p>
+              <div class="progress-bar progress-bar-3"><span>80%</span></div>
+            </div>
+
+            <!--* first skill  -->
+            <div class="html">
+              <p>Java Script</p>
+              <div class="progress-bar progress-bar-4"><span>70%</span></div>
+            </div>
+          </div>
+          <a href="assets/cv/index.html" class="btn" download>download CV</a>
+        </div>
+      </div>
+    </section>
+    <!--================================
+           Services section starts
+    =====================================  -->
+    <section id="services" class="section">
+      <div class="section-heading">
+        <h2 class="heading">Our services</h2>
+      </div>
+      <div class="services-container">
+        <!--* first service  -->
+        <div class="service-box">
+          <div class="icon"><i class="fa-solid fa-desktop"></i></div>
+          <h3>web development</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            earum expedita dolore. Laborum, cumque. Velit odio delectus
+            necessitatibus vero. Aliquid consectetur dolore dolorum voluptates
+            magnam accusamus magni accusantium modi mollitia?
+          </p>
+        </div>
+
+        <!--* second service  -->
+        <div class="service-box">
+          <div class="icon"><i class="fa-brands fa-discord"></i></div>
+          <h3>App development</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            earum expedita dolore. Laborum, cumque. Velit odio delectus
+            necessitatibus vero. Aliquid consectetur dolore dolorum voluptates
+            magnam accusamus magni accusantium modi mollitia?
+          </p>
+        </div>
+
+        <!--* third service  -->
+        <div class="service-box">
+          <div class="icon"><i class="fa-solid fa-atom"></i></div>
+          <h3>UI/UX designing</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
+            earum expedita dolore. Laborum, cumque. Velit odio delectus
+            necessitatibus vero. Aliquid consectetur dolore dolorum voluptates
+            magnam accusamus magni accusantium modi mollitia?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--================================
+              portfolio section starts
+      =====================================  -->
+    <section id="portfolio" class="section-fluid">
+      <div class="section-heading">
+        <h2 class="heading">portfolio</h2>
+      </div>
+      <div class="portfolio-container grid-noGap grid-three-columns">
+        <!-- *first project -->
+        <div class="portfolio-content">
+          <img
+            src="./assets/images/project-1.webp"
+            alt="This is my first project"
+            title="First project"
+            loading="lazy"
+            width="100%"
+            height="300px"
+          />
+          <div class="overlay">
+            <a href="https://appdesignwebsite007.netlify.app" target="_blank"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+            <i class="fa-regular fa-eye-slash"></i>
+          </div>
+        </div>
+
+        <!-- *second project -->
+        <div class="portfolio-content">
+          <img
+            src="./assets/images/project-2.webp"
+            alt="This is my first project"
+            title="This is my second project"
+            loading="lazy"
+            width="100%"
+            height="300px"
+          />
+          <div class="overlay">
+            <a href="https://myfirstportfolio007.netlify.app" target="_blank"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+            <i class="fa-regular fa-eye-slash"></i>
+          </div>
+        </div>
+
+        <!-- *Third project -->
+        <div class="portfolio-content">
+          <img
+            src="./assets/images/project-3.webp"
+            alt="This is my third project"
+            title="First project"
+            loading="lazy"
+            width="100%"
+            height="300px"
+          />
+          <div class="overlay">
+            <a href="https://newswebsite007.netlify.app" target="_blank"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+            <i class="fa-regular fa-eye-slash"></i>
+          </div>
+        </div>
+
+        <!-- *forth project -->
+        <div class="portfolio-content">
+          <img
+            src="./assets/images/project-4.webp"
+            alt="This is my forth project"
+            title="First project"
+            loading="lazy"
+            width="100%"
+            height="300px"
+          />
+          <div class="overlay">
+            <i class="fa-solid fa-link"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+          </div>
+        </div>
+
+        <!-- *fifth project -->
+        <div class="portfolio-content">
+          <img
+            src="./assets/images/project-5.webp"
+            alt="This is my fifth project"
+            title="First project"
+            loading="lazy"
+            width="100%"
+            height="300px"
+          />
+          <div class="overlay">
+            <i class="fa-solid fa-link"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+          </div>
+        </div>
+
+        <!-- *sixth project -->
+        <div class="portfolio-content">
+          <img
+            src="./assets/images/project-6.webp"
+            alt="This is my sixth project"
+            title="First project"
+            loading="lazy"
+            width="100%"
+            height="300px"
+          />
+          <div class="overlay">
+            <i class="fa-solid fa-link"></i>
+            <i class="fa-regular fa-eye-slash"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================================
+            Contact section starts
+    =====================================  -->
+    <section id="contact" class="section-fluid">
+      <div class="section-heading">
+        <h2 class="heading">Contact us</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-location">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.4506121185605!2d67.06560817443041!3d24.882606744372875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33faf17e3e713%3A0xc9e0560b08909aa2!2sSMIT!5e0!3m2!1sen!2s!4v1703307771777!5m2!1sen!2s"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="section">
+          <form action="https://formspree.io/f/xyyrgvpn" method="POST">
+            <div class="grid grid-two-columns">
+              <label for="userFirstName">
+                <input
+                  placeholder="Enter First Name"
+                  type="text"
+                  name="userFirstName"
+                  id="userFirstName"
+                />
+              </label>
+
+              <label for="userLastName">
+                <input
+                  placeholder="Enter Last Name"
+                  type="text"
+                  name="userLastName"
+                  id="userLastName"
+                />
+              </label>
+            </div>
+
+            <div>
+              <label for="userEmail">
+                <input
+                  placeholder="Enter your Email"
+                  type="email"
+                  name="email"
+                  id="userEmail"
+                />
+              </label>
+
+              <label for="userNumber">
+                <input
+                  placeholder="Enter Your Mobile Number"
+                  type="number"
+                  name="mobileNumber"
+                  id="userNumber"
+                />
+              </label>
+            </div>
+
+            <div>
+              <label for="message">
+                <textarea
+                  placeholder="Enter Your Message"
+                  name="usermessage"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </label>
+            </div>
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--================================
+              Footer section starts
+      =====================================  -->
+    <footer id="footer" class="section">
+      <p>&copy; December 2023 by Muhhammad SanaUllah | All Rights Reserved</p>
+      <div class="drop-up">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+    <!--================================
+              Script section starts
+      =====================================  -->
+    <script>
+      let header = document.querySelector(".header-section");
+      let responsiveIcons = document.querySelector(".responsive-icons");
+      console.log(responsiveIcons);
+
+      responsiveIcons.addEventListener("click", function () {
+        header.classList.toggle("show");
+      });
+
+      function hide() {
+        header.classList.remove("show");
+      }
+    </script>
+  </body>
+</html>
